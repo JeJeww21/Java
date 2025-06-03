@@ -3,7 +3,7 @@ package Java;
 public class GanjilGenap {
     public static void main(String[] args) {
         //Bilangan Genap
-        System.out.println("Bilangan genap =");
+        System.out.println("Bilangan Genap =");
         for(int a = 1; a <= 10; a++){
             int hasil = a % 2;
             if (hasil == 0) {
@@ -12,10 +12,10 @@ public class GanjilGenap {
         }
 
         //Bilangan Ganjil
-        System.out.println("Bilangan genap =");
+        System.out.println("Bilangan Ganjil =");
         for(int b = 1; b <= 10; b++){
             int hasil = b % 2;
-            if (hasil == 0) {
+            if (hasil == 1) {
                 System.out.println(b+"");
             }
         }
