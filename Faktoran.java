@@ -4,10 +4,11 @@ import java.util.Scanner;
 public class faktor {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
+
+        /*Contoh Statis */
         int angka = 3;
         int hasil = angka;
-        System.out.print(angka+"! = ");
+        System.out.print(angka+" = ");
         for(int i = angka; i > 0; i-- ){
             System.out.print(i);
             if (i > 1) {
@@ -22,7 +23,7 @@ public class faktor {
         System.out.println("   = " + hasil);
 
 
-        /*Contoh  */
+        /*Contoh Dinamis  */
         System.out.print("Masukkan Angka = ");
         int angka1 = input.nextInt();
         int hasil1 = angka1;
